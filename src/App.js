@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import Header from "./components/Header"
-import Generator from "./components/Generator"
+import QRActions from "./components/QRActions"
 import styles from "./App.module.css"
 const App = () => {
   const [string, setString] = useState(
@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div className={styles.app}>
       <Header />
-      <Generator getQrData={setQrData} url={link} />
+      <QRActions getQrData={setQrData} url={link} />
     </div>
   )
 }

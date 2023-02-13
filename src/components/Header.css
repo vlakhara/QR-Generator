@@ -1,0 +1,28 @@
+.header {
+  height: 13vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  gap: 1rem;
+  margin: 0 auto;
+  font-weight: 700;
+  color: #cd5888;
+  letter-spacing: 2px;
+  user-select: none;
+}
+.me {
+  position: absolute;
+  font-size: 1rem;
+  bottom: 2.5rem;
+  right: 3rem;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .text {
+    display: none;
+  }
+}
